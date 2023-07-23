@@ -1,0 +1,70 @@
+body {
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    
+    background-image: url('Batman.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+  text-indent: -999999px;
+  background: url(batmanlogo.png);
+  width: 16px;
+  height: 9px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #140404;
+    border-radius: 5px;
+    background-color: rgba(248, 5, 5, 0.886); /* Add a transparent background to the forms */
+}
+h1{
+    margin: auto;
+    color: #f80707;
+    display: flex;
+}
+.h1{
+    width: 100px;
+    margin: 10px;
+    padding: 20px;
+   
+}
+h2 {
+    margin: 0 0 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #010306;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b3000095;
+}
